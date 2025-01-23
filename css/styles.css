@@ -94,6 +94,7 @@ img {
 
 .nav-link.current {
     position: relative;
+    color: #404bbf;
 }
 
 .nav-link.current::after {
@@ -165,6 +166,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
+
 }
 
 .main-btn {
