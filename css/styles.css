@@ -320,10 +320,10 @@ button:focus {
     gap: 24px;
 }
 
-.icon-soc-item {
+.social-item {
     width: 40px;
     height: 40px;
-    
+
 }
 
 .icon-soc {
@@ -338,6 +338,7 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soc-link:hover, .soc-link:focus {background-color: #404bbf;}
@@ -466,4 +467,12 @@ justify-content: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+}
+
+.social-list {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
